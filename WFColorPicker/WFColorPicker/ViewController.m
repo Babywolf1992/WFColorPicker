@@ -18,7 +18,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    ILColorPickerDualExampleController *vc = [[ILColorPickerDualExampleController alloc] initWithNibName:@"ILColorPickerDualExampleController" bundle:nil];
+//    ILColorPickerDualExampleController *vc = [[ILColorPickerDualExampleController alloc] initWithNibName:@"ILColorPickerDualExampleController" bundle:nil];
+    ILColorPickerDualExampleController *vc = [[ILColorPickerDualExampleController alloc] init];
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
         [self showViewController:vc sender:nil];
     });
