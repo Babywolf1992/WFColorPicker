@@ -63,7 +63,6 @@
 		9EC576261EA60A6600A42548 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9EC576331EA60A9F00A42548 /* ILColorPickerDualExampleController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILColorPickerDualExampleController.h; sourceTree = "<group>"; };
 		9EC576341EA60A9F00A42548 /* ILColorPickerDualExampleController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILColorPickerDualExampleController.m; sourceTree = "<group>"; };
-		9EC576361EA60A9F00A42548 /* ILColorPickerExample-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ILColorPickerExample-Prefix.pch"; sourceTree = "<group>"; };
 		9EC576371EA60A9F00A42548 /* ILColorPickerExampleAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILColorPickerExampleAppDelegate.h; sourceTree = "<group>"; };
 		9EC576381EA60A9F00A42548 /* ILColorPickerExampleAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILColorPickerExampleAppDelegate.m; sourceTree = "<group>"; };
 		9EC576391EA60A9F00A42548 /* ILColorPickerLayoutBottomExampleController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILColorPickerLayoutBottomExampleController.h; sourceTree = "<group>"; };
@@ -178,7 +177,6 @@
 				9EC576511EA60AA700A42548 /* UIColor+GetHSB.m */,
 				9EC576331EA60A9F00A42548 /* ILColorPickerDualExampleController.h */,
 				9EC576341EA60A9F00A42548 /* ILColorPickerDualExampleController.m */,
-				9EC576361EA60A9F00A42548 /* ILColorPickerExample-Prefix.pch */,
 				9EC576371EA60A9F00A42548 /* ILColorPickerExampleAppDelegate.h */,
 				9EC576381EA60A9F00A42548 /* ILColorPickerExampleAppDelegate.m */,
 				9EC576391EA60A9F00A42548 /* ILColorPickerLayoutBottomExampleController.h */,
