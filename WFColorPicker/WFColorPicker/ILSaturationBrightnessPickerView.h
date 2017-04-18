@@ -30,7 +30,7 @@
  * View for picking the color's saturation and brightness
  */
 @interface ILSaturationBrightnessPickerView : ILView<ILHuePickerViewDelegate> {
-    id<ILSaturationBrightnessPickerViewDelegate> delegate;
+    __weak id<ILSaturationBrightnessPickerViewDelegate> delegate;
     
     float hue;
     float saturation;
@@ -40,7 +40,7 @@
 /**
  * Delegate
  */
-@property (assign, nonatomic) IBOutlet id<ILSaturationBrightnessPickerViewDelegate> delegate;
+@property (weak, nonatomic) IBOutlet id<ILSaturationBrightnessPickerViewDelegate> delegate;
 
 /**
  * Get/Set the current hue

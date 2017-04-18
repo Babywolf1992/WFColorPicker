@@ -56,7 +56,7 @@ typedef enum {
 /**
  * Delegate
  */
-@property (assign,nonatomic) IBOutlet id<ILColorPickerViewDelegate> delegate;
+@property (weak,nonatomic) IBOutlet id<ILColorPickerViewDelegate> delegate;
 
 /**
  * The layout of the controls

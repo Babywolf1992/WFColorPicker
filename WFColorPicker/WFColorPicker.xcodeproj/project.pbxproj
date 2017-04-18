@@ -16,14 +16,14 @@
 		9EC5761A1EA60A6600A42548 /* WFColorPickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EC576191EA60A6600A42548 /* WFColorPickerTests.m */; };
 		9EC576251EA60A6600A42548 /* WFColorPickerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EC576241EA60A6600A42548 /* WFColorPickerUITests.m */; };
 		9EC576461EA60A9F00A42548 /* ILColorPickerDualExampleController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EC576341EA60A9F00A42548 /* ILColorPickerDualExampleController.m */; };
-		9EC576481EA60A9F00A42548 /* ILColorPickerExampleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EC576381EA60A9F00A42548 /* ILColorPickerExampleAppDelegate.m */; };
+		9EC576481EA60A9F00A42548 /* ILColorPickerExampleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EC576381EA60A9F00A42548 /* ILColorPickerExampleAppDelegate.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		9EC576491EA60A9F00A42548 /* ILColorPickerLayoutBottomExampleController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EC5763A1EA60A9F00A42548 /* ILColorPickerLayoutBottomExampleController.m */; };
 		9EC5764A1EA60A9F00A42548 /* ILColorPickerLayoutBottomExampleController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9EC5763B1EA60A9F00A42548 /* ILColorPickerLayoutBottomExampleController.xib */; };
 		9EC5764B1EA60A9F00A42548 /* ILColorPickerLayoutRightExampleController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EC5763D1EA60A9F00A42548 /* ILColorPickerLayoutRightExampleController.m */; };
-		9EC5764C1EA60A9F00A42548 /* ILColorPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EC5763F1EA60A9F00A42548 /* ILColorPickerView.m */; };
+		9EC5764C1EA60A9F00A42548 /* ILColorPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EC5763F1EA60A9F00A42548 /* ILColorPickerView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		9EC5764D1EA60A9F00A42548 /* ILHuePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EC576411EA60A9F00A42548 /* ILHuePickerView.m */; };
 		9EC5764E1EA60A9F00A42548 /* ILSaturationBrightnessPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EC576431EA60A9F00A42548 /* ILSaturationBrightnessPickerView.m */; };
-		9EC5764F1EA60A9F00A42548 /* ILView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EC576451EA60A9F00A42548 /* ILView.m */; };
+		9EC5764F1EA60A9F00A42548 /* ILView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EC576451EA60A9F00A42548 /* ILView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		9EC576521EA60AA700A42548 /* UIColor+GetHSB.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EC576511EA60AA700A42548 /* UIColor+GetHSB.m */; };
 /* End PBXBuildFile section */
 
