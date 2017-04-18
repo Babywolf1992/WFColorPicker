@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9EC576011EA60A6600A42548 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EC576001EA60A6600A42548 /* main.m */; };
+		9EC576041EA60A6600A42548 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EC576031EA60A6600A42548 /* AppDelegate.m */; };
+		9EC576071EA60A6600A42548 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EC576061EA60A6600A42548 /* ViewController.m */; };
+		9EC5760A1EA60A6600A42548 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EC576081EA60A6600A42548 /* Main.storyboard */; };
+		9EC5760C1EA60A6600A42548 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EC5760B1EA60A6600A42548 /* Assets.xcassets */; };
+		9EC5760F1EA60A6600A42548 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EC5760D1EA60A6600A42548 /* LaunchScreen.storyboard */; };
+		9EC5761A1EA60A6600A42548 /* WFColorPickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EC576191EA60A6600A42548 /* WFColorPickerTests.m */; };
+		9EC576251EA60A6600A42548 /* WFColorPickerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EC576241EA60A6600A42548 /* WFColorPickerUITests.m */; };
+		9EC576461EA60A9F00A42548 /* ILColorPickerDualExampleController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EC576341EA60A9F00A42548 /* ILColorPickerDualExampleController.m */; };
+		9EC576481EA60A9F00A42548 /* ILColorPickerExampleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EC576381EA60A9F00A42548 /* ILColorPickerExampleAppDelegate.m */; };
+		9EC576491EA60A9F00A42548 /* ILColorPickerLayoutBottomExampleController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EC5763A1EA60A9F00A42548 /* ILColorPickerLayoutBottomExampleController.m */; };
+		9EC5764A1EA60A9F00A42548 /* ILColorPickerLayoutBottomExampleController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9EC5763B1EA60A9F00A42548 /* ILColorPickerLayoutBottomExampleController.xib */; };
+		9EC5764B1EA60A9F00A42548 /* ILColorPickerLayoutRightExampleController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EC5763D1EA60A9F00A42548 /* ILColorPickerLayoutRightExampleController.m */; };
+		9EC5764C1EA60A9F00A42548 /* ILColorPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EC5763F1EA60A9F00A42548 /* ILColorPickerView.m */; };
+		9EC5764D1EA60A9F00A42548 /* ILHuePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EC576411EA60A9F00A42548 /* ILHuePickerView.m */; };
+		9EC5764E1EA60A9F00A42548 /* ILSaturationBrightnessPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EC576431EA60A9F00A42548 /* ILSaturationBrightnessPickerView.m */; };
+		9EC5764F1EA60A9F00A42548 /* ILView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EC576451EA60A9F00A42548 /* ILView.m */; };
+		9EC576521EA60AA700A42548 /* UIColor+GetHSB.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EC576511EA60AA700A42548 /* UIColor+GetHSB.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9EC576161EA60A6600A42548 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9EC575F41EA60A6600A42548 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9EC575FB1EA60A6600A42548;
+			remoteInfo = WFColorPicker;
+		};
+		9EC576211EA60A6600A42548 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9EC575F41EA60A6600A42548 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9EC575FB1EA60A6600A42548;
+			remoteInfo = WFColorPicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9EC575FC1EA60A6600A42548 /* WFColorPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WFColorPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EC576001EA60A6600A42548 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9EC576021EA60A6600A42548 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9EC576031EA60A6600A42548 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9EC576051EA60A6600A42548 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9EC576061EA60A6600A42548 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9EC576091EA60A6600A42548 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9EC5760B1EA60A6600A42548 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9EC5760E1EA60A6600A42548 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9EC576101EA60A6600A42548 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9EC576151EA60A6600A42548 /* WFColorPickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WFColorPickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EC576191EA60A6600A42548 /* WFColorPickerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WFColorPickerTests.m; sourceTree = "<group>"; };
+		9EC5761B1EA60A6600A42548 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9EC576201EA60A6600A42548 /* WFColorPickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WFColorPickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EC576241EA60A6600A42548 /* WFColorPickerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WFColorPickerUITests.m; sourceTree = "<group>"; };
+		9EC576261EA60A6600A42548 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9EC576331EA60A9F00A42548 /* ILColorPickerDualExampleController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILColorPickerDualExampleController.h; sourceTree = "<group>"; };
+		9EC576341EA60A9F00A42548 /* ILColorPickerDualExampleController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILColorPickerDualExampleController.m; sourceTree = "<group>"; };
+		9EC576361EA60A9F00A42548 /* ILColorPickerExample-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ILColorPickerExample-Prefix.pch"; sourceTree = "<group>"; };
+		9EC576371EA60A9F00A42548 /* ILColorPickerExampleAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILColorPickerExampleAppDelegate.h; sourceTree = "<group>"; };
+		9EC576381EA60A9F00A42548 /* ILColorPickerExampleAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILColorPickerExampleAppDelegate.m; sourceTree = "<group>"; };
+		9EC576391EA60A9F00A42548 /* ILColorPickerLayoutBottomExampleController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILColorPickerLayoutBottomExampleController.h; sourceTree = "<group>"; };
+		9EC5763A1EA60A9F00A42548 /* ILColorPickerLayoutBottomExampleController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILColorPickerLayoutBottomExampleController.m; sourceTree = "<group>"; };
+		9EC5763B1EA60A9F00A42548 /* ILColorPickerLayoutBottomExampleController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ILColorPickerLayoutBottomExampleController.xib; sourceTree = "<group>"; };
+		9EC5763C1EA60A9F00A42548 /* ILColorPickerLayoutRightExampleController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILColorPickerLayoutRightExampleController.h; sourceTree = "<group>"; };
+		9EC5763D1EA60A9F00A42548 /* ILColorPickerLayoutRightExampleController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILColorPickerLayoutRightExampleController.m; sourceTree = "<group>"; };
+		9EC5763E1EA60A9F00A42548 /* ILColorPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILColorPickerView.h; sourceTree = "<group>"; };
+		9EC5763F1EA60A9F00A42548 /* ILColorPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILColorPickerView.m; sourceTree = "<group>"; };
+		9EC576401EA60A9F00A42548 /* ILHuePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILHuePickerView.h; sourceTree = "<group>"; };
+		9EC576411EA60A9F00A42548 /* ILHuePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILHuePickerView.m; sourceTree = "<group>"; };
+		9EC576421EA60A9F00A42548 /* ILSaturationBrightnessPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILSaturationBrightnessPickerView.h; sourceTree = "<group>"; };
+		9EC576431EA60A9F00A42548 /* ILSaturationBrightnessPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILSaturationBrightnessPickerView.m; sourceTree = "<group>"; };
+		9EC576441EA60A9F00A42548 /* ILView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILView.h; sourceTree = "<group>"; };
+		9EC576451EA60A9F00A42548 /* ILView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILView.m; sourceTree = "<group>"; };
+		9EC576501EA60AA700A42548 /* UIColor+GetHSB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+GetHSB.h"; sourceTree = "<group>"; };
+		9EC576511EA60AA700A42548 /* UIColor+GetHSB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+GetHSB.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9EC575F91EA60A6600A42548 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EC576121EA60A6600A42548 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EC5761D1EA60A6600A42548 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9EC575F31EA60A6600A42548 = {
+			isa = PBXGroup;
+			children = (
+				9EC575FE1EA60A6600A42548 /* WFColorPicker */,
+				9EC576181EA60A6600A42548 /* WFColorPickerTests */,
+				9EC576231EA60A6600A42548 /* WFColorPickerUITests */,
+				9EC575FD1EA60A6600A42548 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9EC575FD1EA60A6600A42548 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9EC575FC1EA60A6600A42548 /* WFColorPicker.app */,
+				9EC576151EA60A6600A42548 /* WFColorPickerTests.xctest */,
+				9EC576201EA60A6600A42548 /* WFColorPickerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9EC575FE1EA60A6600A42548 /* WFColorPicker */ = {
+			isa = PBXGroup;
+			children = (
+				9EC576321EA60A8D00A42548 /* ILColorPicker */,
+				9EC576021EA60A6600A42548 /* AppDelegate.h */,
+				9EC576031EA60A6600A42548 /* AppDelegate.m */,
+				9EC576051EA60A6600A42548 /* ViewController.h */,
+				9EC576061EA60A6600A42548 /* ViewController.m */,
+				9EC576081EA60A6600A42548 /* Main.storyboard */,
+				9EC5760B1EA60A6600A42548 /* Assets.xcassets */,
+				9EC5760D1EA60A6600A42548 /* LaunchScreen.storyboard */,
+				9EC576101EA60A6600A42548 /* Info.plist */,
+				9EC575FF1EA60A6600A42548 /* Supporting Files */,
+			);
+			path = WFColorPicker;
+			sourceTree = "<group>";
+		};
+		9EC575FF1EA60A6600A42548 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9EC576001EA60A6600A42548 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9EC576181EA60A6600A42548 /* WFColorPickerTests */ = {
+			isa = PBXGroup;
+			children = (
+				9EC576191EA60A6600A42548 /* WFColorPickerTests.m */,
+				9EC5761B1EA60A6600A42548 /* Info.plist */,
+			);
+			path = WFColorPickerTests;
+			sourceTree = "<group>";
+		};
+		9EC576231EA60A6600A42548 /* WFColorPickerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9EC576241EA60A6600A42548 /* WFColorPickerUITests.m */,
+				9EC576261EA60A6600A42548 /* Info.plist */,
+			);
+			path = WFColorPickerUITests;
+			sourceTree = "<group>";
+		};
+		9EC576321EA60A8D00A42548 /* ILColorPicker */ = {
+			isa = PBXGroup;
+			children = (
+				9EC576501EA60AA700A42548 /* UIColor+GetHSB.h */,
+				9EC576511EA60AA700A42548 /* UIColor+GetHSB.m */,
+				9EC576331EA60A9F00A42548 /* ILColorPickerDualExampleController.h */,
+				9EC576341EA60A9F00A42548 /* ILColorPickerDualExampleController.m */,
+				9EC576361EA60A9F00A42548 /* ILColorPickerExample-Prefix.pch */,
+				9EC576371EA60A9F00A42548 /* ILColorPickerExampleAppDelegate.h */,
+				9EC576381EA60A9F00A42548 /* ILColorPickerExampleAppDelegate.m */,
+				9EC576391EA60A9F00A42548 /* ILColorPickerLayoutBottomExampleController.h */,
+				9EC5763A1EA60A9F00A42548 /* ILColorPickerLayoutBottomExampleController.m */,
+				9EC5763B1EA60A9F00A42548 /* ILColorPickerLayoutBottomExampleController.xib */,
+				9EC5763C1EA60A9F00A42548 /* ILColorPickerLayoutRightExampleController.h */,
+				9EC5763D1EA60A9F00A42548 /* ILColorPickerLayoutRightExampleController.m */,
+				9EC5763E1EA60A9F00A42548 /* ILColorPickerView.h */,
+				9EC5763F1EA60A9F00A42548 /* ILColorPickerView.m */,
+				9EC576401EA60A9F00A42548 /* ILHuePickerView.h */,
+				9EC576411EA60A9F00A42548 /* ILHuePickerView.m */,
+				9EC576421EA60A9F00A42548 /* ILSaturationBrightnessPickerView.h */,
+				9EC576431EA60A9F00A42548 /* ILSaturationBrightnessPickerView.m */,
+				9EC576441EA60A9F00A42548 /* ILView.h */,
+				9EC576451EA60A9F00A42548 /* ILView.m */,
+			);
+			name = ILColorPicker;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9EC575FB1EA60A6600A42548 /* WFColorPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9EC576291EA60A6600A42548 /* Build configuration list for PBXNativeTarget "WFColorPicker" */;
+			buildPhases = (
+				9EC575F81EA60A6600A42548 /* Sources */,
+				9EC575F91EA60A6600A42548 /* Frameworks */,
+				9EC575FA1EA60A6600A42548 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WFColorPicker;
+			productName = WFColorPicker;
+			productReference = 9EC575FC1EA60A6600A42548 /* WFColorPicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9EC576141EA60A6600A42548 /* WFColorPickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9EC5762C1EA60A6600A42548 /* Build configuration list for PBXNativeTarget "WFColorPickerTests" */;
+			buildPhases = (
+				9EC576111EA60A6600A42548 /* Sources */,
+				9EC576121EA60A6600A42548 /* Frameworks */,
+				9EC576131EA60A6600A42548 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9EC576171EA60A6600A42548 /* PBXTargetDependency */,
+			);
+			name = WFColorPickerTests;
+			productName = WFColorPickerTests;
+			productReference = 9EC576151EA60A6600A42548 /* WFColorPickerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9EC5761F1EA60A6600A42548 /* WFColorPickerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9EC5762F1EA60A6600A42548 /* Build configuration list for PBXNativeTarget "WFColorPickerUITests" */;
+			buildPhases = (
+				9EC5761C1EA60A6600A42548 /* Sources */,
+				9EC5761D1EA60A6600A42548 /* Frameworks */,
+				9EC5761E1EA60A6600A42548 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9EC576221EA60A6600A42548 /* PBXTargetDependency */,
+			);
+			name = WFColorPickerUITests;
+			productName = WFColorPickerUITests;
+			productReference = 9EC576201EA60A6600A42548 /* WFColorPickerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9EC575F41EA60A6600A42548 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = babywolf;
+				TargetAttributes = {
+					9EC575FB1EA60A6600A42548 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = C63Y2RP62Y;
+						ProvisioningStyle = Automatic;
+					};
+					9EC576141EA60A6600A42548 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = C63Y2RP62Y;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9EC575FB1EA60A6600A42548;
+					};
+					9EC5761F1EA60A6600A42548 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = C63Y2RP62Y;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9EC575FB1EA60A6600A42548;
+					};
+				};
+			};
+			buildConfigurationList = 9EC575F71EA60A6600A42548 /* Build configuration list for PBXProject "WFColorPicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9EC575F31EA60A6600A42548;
+			productRefGroup = 9EC575FD1EA60A6600A42548 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9EC575FB1EA60A6600A42548 /* WFColorPicker */,
+				9EC576141EA60A6600A42548 /* WFColorPickerTests */,
+				9EC5761F1EA60A6600A42548 /* WFColorPickerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9EC575FA1EA60A6600A42548 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EC5760F1EA60A6600A42548 /* LaunchScreen.storyboard in Resources */,
+				9EC5760C1EA60A6600A42548 /* Assets.xcassets in Resources */,
+				9EC5760A1EA60A6600A42548 /* Main.storyboard in Resources */,
+				9EC5764A1EA60A9F00A42548 /* ILColorPickerLayoutBottomExampleController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EC576131EA60A6600A42548 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EC5761E1EA60A6600A42548 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9EC575F81EA60A6600A42548 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EC576521EA60AA700A42548 /* UIColor+GetHSB.m in Sources */,
+				9EC576071EA60A6600A42548 /* ViewController.m in Sources */,
+				9EC576481EA60A9F00A42548 /* ILColorPickerExampleAppDelegate.m in Sources */,
+				9EC576041EA60A6600A42548 /* AppDelegate.m in Sources */,
+				9EC5764C1EA60A9F00A42548 /* ILColorPickerView.m in Sources */,
+				9EC576011EA60A6600A42548 /* main.m in Sources */,
+				9EC5764D1EA60A9F00A42548 /* ILHuePickerView.m in Sources */,
+				9EC5764F1EA60A9F00A42548 /* ILView.m in Sources */,
+				9EC5764B1EA60A9F00A42548 /* ILColorPickerLayoutRightExampleController.m in Sources */,
+				9EC576491EA60A9F00A42548 /* ILColorPickerLayoutBottomExampleController.m in Sources */,
+				9EC5764E1EA60A9F00A42548 /* ILSaturationBrightnessPickerView.m in Sources */,
+				9EC576461EA60A9F00A42548 /* ILColorPickerDualExampleController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EC576111EA60A6600A42548 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EC5761A1EA60A6600A42548 /* WFColorPickerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EC5761C1EA60A6600A42548 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EC576251EA60A6600A42548 /* WFColorPickerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9EC576171EA60A6600A42548 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9EC575FB1EA60A6600A42548 /* WFColorPicker */;
+			targetProxy = 9EC576161EA60A6600A42548 /* PBXContainerItemProxy */;
+		};
+		9EC576221EA60A6600A42548 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9EC575FB1EA60A6600A42548 /* WFColorPicker */;
+			targetProxy = 9EC576211EA60A6600A42548 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9EC576081EA60A6600A42548 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9EC576091EA60A6600A42548 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9EC5760D1EA60A6600A42548 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9EC5760E1EA60A6600A42548 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9EC576271EA60A6600A42548 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9EC576281EA60A6600A42548 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9EC5762A1EA60A6600A42548 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = C63Y2RP62Y;
+				INFOPLIST_FILE = WFColorPicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.weaver.WFColorPicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9EC5762B1EA60A6600A42548 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = C63Y2RP62Y;
+				INFOPLIST_FILE = WFColorPicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.weaver.WFColorPicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9EC5762D1EA60A6600A42548 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = C63Y2RP62Y;
+				INFOPLIST_FILE = WFColorPickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.weaver.WFColorPickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WFColorPicker.app/WFColorPicker";
+			};
+			name = Debug;
+		};
+		9EC5762E1EA60A6600A42548 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = C63Y2RP62Y;
+				INFOPLIST_FILE = WFColorPickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.weaver.WFColorPickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WFColorPicker.app/WFColorPicker";
+			};
+			name = Release;
+		};
+		9EC576301EA60A6600A42548 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = C63Y2RP62Y;
+				INFOPLIST_FILE = WFColorPickerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.weaver.WFColorPickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WFColorPicker;
+			};
+			name = Debug;
+		};
+		9EC576311EA60A6600A42548 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = C63Y2RP62Y;
+				INFOPLIST_FILE = WFColorPickerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.weaver.WFColorPickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WFColorPicker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9EC575F71EA60A6600A42548 /* Build configuration list for PBXProject "WFColorPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EC576271EA60A6600A42548 /* Debug */,
+				9EC576281EA60A6600A42548 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9EC576291EA60A6600A42548 /* Build configuration list for PBXNativeTarget "WFColorPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EC5762A1EA60A6600A42548 /* Debug */,
+				9EC5762B1EA60A6600A42548 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9EC5762C1EA60A6600A42548 /* Build configuration list for PBXNativeTarget "WFColorPickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EC5762D1EA60A6600A42548 /* Debug */,
+				9EC5762E1EA60A6600A42548 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9EC5762F1EA60A6600A42548 /* Build configuration list for PBXNativeTarget "WFColorPickerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EC576301EA60A6600A42548 /* Debug */,
+				9EC576311EA60A6600A42548 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9EC575F41EA60A6600A42548 /* Project object */;
+}
