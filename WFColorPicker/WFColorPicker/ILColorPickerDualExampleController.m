@@ -17,7 +17,7 @@
     [super viewDidLoad];
     
     // Build a random color to show off setting the color on the pickers
-    
+    self.view.backgroundColor = [UIColor clearColor];
     UIColor *c=[UIColor colorWithRed:(arc4random()%100)/100.0f 
                                green:(arc4random()%100)/100.0f
                                 blue:(arc4random()%100)/100.0f
